@@ -23,7 +23,8 @@ const Counter = () => {
   const { count, increment } = useCounter();
 
   return (
-    <div>
+    <div className="p-4">
+      <input />
       <p>count: {count}</p>
       <button
         onClick={() => {
